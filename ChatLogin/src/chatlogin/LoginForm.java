@@ -106,7 +106,7 @@ public class LoginForm extends javax.swing.JFrame {
         
         ChatClient chatClient = new ChatClient();
         chatClient.address = "localhost";
-        chatClient.port = 2468;
+        chatClient.port = 3504;
         
         MyMessage m = new MyMessage();
         m.sender = username;

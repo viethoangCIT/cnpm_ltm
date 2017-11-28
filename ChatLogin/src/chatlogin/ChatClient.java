@@ -20,7 +20,7 @@ import org.codehaus.jackson.map.ObjectMapper;
  */
 public class ChatClient {
     public String address = "localhost";
-    public int port = 2468;
+    public int port = 3504;
     
     public MyMessage send(MyMessage m){
         try{

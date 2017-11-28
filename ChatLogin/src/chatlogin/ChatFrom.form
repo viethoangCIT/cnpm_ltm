@@ -88,9 +88,9 @@
           <Font name="Tahoma" size="24" style="1"/>
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="0" red="ff" type="rgb"/>
+          <Color blue="ff" green="0" red="0" type="rgb"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="Ch&#x1b0;&#x1a1;ng tr&#xec;nh chat 15SINC"/>
+        <Property name="text" type="java.lang.String" value="Ch&#x1b0;&#x1a1;ng tr&#xec;nh chat nh&#xf3;m HTTD"/>
       </Properties>
     </Component>
     <Container class="javax.swing.JScrollPane" name="jScrollPane1">
@@ -104,11 +104,11 @@
           <Properties>
             <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
               <StringArray count="5">
-                <StringItem index="0" value="Picolo"/>
-                <StringItem index="1" value="Vegeta"/>
-                <StringItem index="2" value="Freida"/>
-                <StringItem index="3" value="Cell b&#x1ecd; hung"/>
-                <StringItem index="4" value="Ma b&#x1b0;"/>
+                <StringItem index="0" value="Viet Hoang"/>
+                <StringItem index="1" value="Le Duong"/>
+                <StringItem index="2" value="Tan Thanh"/>
+                <StringItem index="3" value="Trong Thanh"/>
+                <StringItem index="4" value=" "/>
               </StringArray>
             </Property>
           </Properties>

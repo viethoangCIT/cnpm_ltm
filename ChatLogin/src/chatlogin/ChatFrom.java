@@ -42,11 +42,11 @@ public class ChatFrom extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 0, 255));
-        jLabel1.setText("Chương trình chat 15SINC");
+        jLabel1.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel1.setText("Chương trình chat nhóm HTTD");
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
-            String[] strings = { "Picolo", "Vegeta", "Freida", "Cell bọ hung", "Ma bư" };
+            String[] strings = { "Viet Hoang", "Le Duong", "Tan Thanh", "Trong Thanh", " " };
             public int getSize() { return strings.length; }
             public String getElementAt(int i) { return strings[i]; }
         });

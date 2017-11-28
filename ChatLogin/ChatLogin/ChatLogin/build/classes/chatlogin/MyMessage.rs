@@ -1,1 +1,0 @@
-chat15sinc.MyMessage

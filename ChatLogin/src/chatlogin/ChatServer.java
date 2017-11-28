@@ -20,7 +20,7 @@ import org.codehaus.jackson.map.ObjectMapper;
 public class ChatServer {
     public static void main(String[] args) {
         System.out.println("This is server");
-        int port = 2468;
+        int port = 3504;
         try{
             ServerSocket serverSocket = new ServerSocket(port);
             while (true){
@@ -37,24 +37,24 @@ public class ChatServer {
                 MyMessage m = mapper.readValue(s, MyMessage.class);
                 
                 if (m.type.equalsIgnoreCase("login")){
-                    if (m.sender.equalsIgnoreCase("songoku")){
-                        if (m.content.equalsIgnoreCase("dragon ball")){
+                    if (m.sender.equalsIgnoreCase("viethoang")){
+                        if (m.content.equalsIgnoreCase("viethoang")){
                             s1 = "ok";
                         }
                         else{
                             s1 = "fail";
                         }
                     }
-                    else if (m.sender.equalsIgnoreCase("tokuda")){
-                        if (m.content.equalsIgnoreCase("shigeo")){
+                    else if (m.sender.equalsIgnoreCase("admin")){
+                        if (m.content.equalsIgnoreCase("admin")){
                             s1 = "ok";
                         }
                         else{
                             s1 = "fail";
                         }
                     }
-                    else if (m.sender.equalsIgnoreCase("kokomi")){
-                        if (m.content.equalsIgnoreCase("mi an lien")){
+                    else if (m.sender.equalsIgnoreCase("leduong")){
+                        if (m.content.equalsIgnoreCase("leduong")){
                             s1 = "ok";
                         }
                         else{
